@@ -75,7 +75,7 @@ function App() {
             Donec sodales tortor id magna accumsan, ac porttitor ipsum fringilla. In venenatis sapien nec ante
             tincidunt
             sollicitudin. Curabitur nec varius magna, sit amet hendrerit dui. </p>
-          <img src={MyImage} height="600" width="1000"></img>
+          <img src={MyImage} alt="Img" height="600" width="1000"></img>
         </div>
       </div>
     </div>
