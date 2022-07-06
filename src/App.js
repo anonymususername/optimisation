@@ -1,4 +1,4 @@
-import MyImage from './img/jpg_44.webp';
+import MyImage from './img/mountains.webp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -75,7 +75,7 @@ function App() {
             Donec sodales tortor id magna accumsan, ac porttitor ipsum fringilla. In venenatis sapien nec ante
             tincidunt
             sollicitudin. Curabitur nec varius magna, sit amet hendrerit dui. </p>
-          <img src={MyImage} alt="Img" height="600" width="1000"></img>
+          <img src={MyImage} alt="Img" height="600" width="1000" loading="lazy"></img>
         </div>
       </div>
     </div>
