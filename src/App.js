@@ -2,14 +2,18 @@ import MyImage from './img/mountains.webp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+
+
+
 function App() {
   return (
     <div className="App">
+
       <div className='container-fluid'>
         <div className='container'>
           <h1 class="mb-5">Normal optimized image</h1>
 
-          <h2 class="mb-5">Scrollez vers le bas pour voir l'image, l'idée ici est qu'elle soit hors de vue du dom pour
+          <h2 class="mb-5">Scrollez vers le bas pour voir l'image, l'idée ici est qu'elle soit hors de vue de la fenêtre  pour
             le
             chargement</h2>
           <button class="mb-5">test</button>
@@ -77,6 +81,9 @@ function App() {
             sollicitudin. Curabitur nec varius magna, sit amet hendrerit dui. </p>
           <img src={MyImage} alt="Img" height="600" width="1000" loading="lazy"></img>
         </div>
+
+
+
       </div>
     </div>
 
