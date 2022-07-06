@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import Img from 'react-optimized-image';
 import MyImage from './img/jpg_44.webp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
